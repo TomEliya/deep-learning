@@ -1,0 +1,40 @@
+.fullScreen {
+  margin: 0;
+  height: 100%;
+}
+
+.real {
+  animation: real-move 2s forwards;
+}
+
+@keyframes real-move {
+  0% {
+    background-color: #ffffff;
+  }
+  50% {
+    background-color: lightgreen;
+  }
+  100% {
+    background-color: #ffffff;
+  }
+}
+
+.fake {
+  animation: fake-move 2s forwards;
+}
+
+@keyframes fake-move {
+  0% {
+    background-color: #ffffff;
+  }
+  50% {
+    background-color: rgb(209, 29, 29);
+  }
+  100% {
+    background-color: #ffffff;
+  }
+}
+
+.regular {
+  background-color: #ffffff;
+}

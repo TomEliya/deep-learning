@@ -1,0 +1,19 @@
+.main_link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.main_link:hover {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.link:hover {
+  color: #000000;
+  cursor: pointer;
+}
